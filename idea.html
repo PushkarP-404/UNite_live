@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UNite</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5b24cdc61.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".right_menu li .fas").click(function(){
+                $(".profile_dd").toggleClass("active");
+            });
+            $(".hamburger").click(function(){
+                $(".sidebar").toggleClass("active");
+            })
+        })
+    </script>
+    <title>UNite</title>
+    <style>
+        h2 {
+            margin-top: 35px;
+            margin-left: 230px;
+            padding: 20px;
+            background-color: #ffde3a;
+        }
+        .main_container .container .item_one .pic_one{
+            display: flex;
+            border-radius: 50%;
+            height: 500px;
+            width: 400px;
+            margin-right: 20px;
+}
+    </style>
+</head>
+<body  background="main_background.png" bgcolor="#EFEFEF">
+    <h1  id="document_top">.</h1>
+    <div class="wrapper">
+        <div class="top_navbar">
+            <div class="hamburger">
+                <div class="hamburger_inner">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="logo">
+                    UNite
+                </div>
+                <div class="right_menu">
+                    <ul>
+                        <li><img src="main_logo.png" alt="Logo" height="60px" width="60px">
+                            <div class="profile_dd">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_container">
+            <div class="sidebar">
+                <div class="container">
+                    <div class="sidebar_iner">
+                        <div class="profile">
+                            <div class="img">
+                                <img src="main_logo.png" alt="Logo" sizes="100" width="100">
+                            </div>
+                            <div class="profile_info">
+                                <p class="profile_name"></p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <span class="title">&nbsp; About Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="problem.html">
+                                    <i class="fa-solid fa-question"></i>
+                                    <span class="title">&nbsp; Problem</span>
+                                </a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="idea.html" class="active">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                    <span class="title">&nbsp; Idea</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">
+                                    <i class="fa-solid fa-timeline fa-rotate-90"></i>
+                                    <span class="title">&nbsp; Timeline</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="product.html">
+                                    <i class="fa-brands fa-bimobject"></i>
+                                    <span class="title">&nbsp; Our Product</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2>The Idea</h2>
+                <img src="product_logo.png" alt="logo" height="300px" width="300px" style="margin-left: 600px;">
+                <div class="main_idea">
+                    <img src="model_templte_image.png" alt="prototype" class="pic_one"  style="border-radius: 0%;" height="430px" width="320px">
+                    <div class="discription_one">
+                    </div>
+                    UNite hopes to make wind turbines far cheaper and open up new ways to design them, by ditching the stiff fibreglass blades it uses now in favour of turbine blades made out of fabric. This idea could lower wind turbine blade costs by 40 per cent.
+                    Fabric can be recycled multiple times thus incorporating circular economy while simultaneously reducing the fabric waste along with lowering costs by upto 17% of the total cost of the turbine.
+                    Our turbines being made of fabric are lightweight as well as easy to move thus reducing the noise produced
+                    <br>
+                    Moving towards the centre, we have a perovskite cell attached.
+                    Perovskite cells are composed of photovoltaic layers embedded in a plastic, glass or metal substrate.
+                    Their high absorption coefficient enables ultrathin films of around 500 nm to absorb the complete visible solar spectrum. These features combined, result in the creation of low cost, high efficiency, thin, lightweight, and flexible solar modules. 
+                    Furthermore, we will be sourcing both the fabric and the plastic from local plants and manufacturers, allowing us to reduce plastic and fabric waste too, all while reducing the cost of our products to make it more affordable and accessible by all.
+                </div>
+                <div class="item_two">
+                    <img src="model_img_one.png" alt="model" height="400px" width="550px" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gotoTop_button">
+        <button class="gotoTop" id="gotoTop">
+            <a href="#document_top">
+                <i class="fa-solid fa-circle-up fa-2xl"></i>
+            </a>
+        </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UNite</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5b24cdc61.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".right_menu li .fas").click(function(){
+                $(".profile_dd").toggleClass("active");
+            });
+            $(".hamburger").click(function(){
+                $(".sidebar").toggleClass("active");
+            })
+        })
+    </script>
+    <title>UNite</title>
+    <style>
+        h2 {
+            margin-top: 75px;
+            margin-left: 230px;
+            padding: 20px;
+            background-color: #ffde3a;
+        }
+    </style>
+</head>
+<body  background="main_background.png" bgcolor="#EFEFEF">
+    <div class="wrapper">
+        <div class="top_navbar">
+            <div class="hamburger">
+                <div class="hamburger_inner">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="logo">
+                    UNite
+                </div>
+                <div class="right_menu">
+                    <ul>
+                        <li><img src="main_logo.png" alt="Logo" height="60px" width="60px">
+                            <div class="profile_dd">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_container">
+            <div class="sidebar">
+                <div class="container">
+                    <div class="sidebar_iner">
+                        <div class="profile">
+                            <div class="img">
+                                <img src="main_logo.png" alt="Logo" sizes="100" width="100">
+                            </div>
+                            <div class="profile_info">
+                                <p class="profile_name"></p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <span class="title">&nbsp; About Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="problem.html" class="active">
+                                    <i class="fa-solid fa-question"></i>
+                                    <span class="title">&nbsp; Problem</span>
+                                </a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="idea.html">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                    <span class="title">&nbsp; Idea</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">
+                                    <i class="fa-solid fa-timeline fa-rotate-90"></i>
+                                    <span class="title">&nbsp; Timeline</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="product.html">
+                                    <i class="fa-brands fa-bimobject"></i>
+                                    <span class="title">&nbsp; Our Product</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2>The Probelm</h2>
+                <div class="item_one">
+                    <img src="problem_1.jpeg" alt="pic" class="pic_one" height="200px" width="350px">
+                    Wind turbines:<br>
+                    Wind turbine blades make noise as they turn in the wind which can cause disturbances to people.
+                    Most land-based wind power projects require service roads that add to the physical effects on the environment.
+                </div>
+                <div class="item_three">
+                    <img src="problem_2.jpeg" alt="pic" class="pic_one" height="250px" width="350px" style="margin-left: 275px;">
+                    Producing the metals and other materials used to make wind turbine components has environmental implications and fossil fuels may be used to produce the materials.
+                    Turbine blades as currently constructed are mostly not recyclable.
+                </div><br><br><br><br>
+                <div class="item_two">
+                    <img src="solar_1.jpeg" alt="pic" class="pic_two" height="200px" width="300px" align="right">
+                    Solar: <br>
+                    Fabrication requires corrosive metals like Hydrofluoric Acid, Sodium Hydroxide.
+                    Blast furnace burns fossil fuels at high temperatures - releases greenhouse gases. 
+                    Only be transported in designated routes at particular times by trained personnel - expensive restrictions.
+                </div>
+                <div class="item_four">
+                    <img src="solar_2.jpeg" alt="pic" class="pic_two" height="200px" width="300px" align="right">
+                    If panels are disposed of inappropriately, toxic chemicals and hazardous wastes might be released into the atmosphere.
+                    Panels made of several resources & rare minerals - must be recycled properly. 
+                    Research shows that  by 2035, discarded panels would outweigh new units sold by 2.56 times.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gotoTop_button">
+        <button class="gotoTop" id="gotoTop">
+            <i class="fa-solid fa-circle-up fa-2xl"></i>
+        </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyclo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5b24cdc61.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".right_menu li .fas").click(function(){
+                $(".profile_dd").toggleClass("active");
+            });
+            $(".hamburger").click(function(){
+                $(".sidebar").toggleClass("active");
+            })
+        })
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal)
+
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+            for(var i = 0; i < reveals.length; i++){
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <title>UNite</title>
+    <style>
+        h2 {
+            margin-top: 75px;
+            margin-left: 230px;
+            padding: 20px;
+            background-color: #ffde3a;
+        }
+    </style>
+</head>
+<body  background="main_background.png" bgcolor="#EFEFEF">
+    <script src="app.js"></script>
+    <div class="wrapper">
+        <div class="top_navbar">
+            <div class="hamburger">
+                <div class="hamburger_inner">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="logo">
+                    UNite
+                </div>
+                <div class="right_menu">
+                    <ul>
+                        <li><img src="main_logo.png" alt="Logo" height="60px" width="60px">
+                            <div class="profile_dd">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_container">
+            <div class="sidebar">
+                <div class="container">
+                    <div class="sidebar_iner">
+                        <div class="profile">
+                            <div class="img">
+                                <img src="main_logo.png" alt="Logo" sizes="100" width="100">
+                            </div>
+                            <div class="profile_info">
+                                <p class="profile_name"></p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <span class="title">&nbsp; About Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="problem.html">
+                                    <i class="fa-solid fa-question"></i>
+                                    <span class="title">&nbsp; Problem</span>
+                                </a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="idea.html">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                    <span class="title">&nbsp; Idea</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="timeline.html" class="active">
+                                    <i class="fa-solid fa-timeline fa-rotate-90"></i>
+                                    <span class="title">&nbsp; Timeline</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="product.html">
+                                    <i class="fa-brands fa-bimobject"></i>
+                                    <span class="title">&nbsp; Our Product</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Timeline</h2>
+                <div class="item_one">
+                     <div class="TL"  style="font-size:0;">
+                        <img src="timeline_one.png" alt="timeline" class="inline-photo reveal">
+                        <img src="line_2.png" alt="timeline" class="inline-photo reveal">
+                        <img src="line_3.png" alt="timeline" class="inline-photo reveal">
+                        <img src="line_4.png" alt="timeline" class="inline-photo reveal">
+                        <img src="line_5.png" alt="timeline" class="inline-photo reveal">
+                        <img src="line_6.png" alt="timeline" class="inline-photo reveal">
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gotoTop_button">
+        <button class="gotoTop" id="gotoTop">
+            <i class="fa-solid fa-circle-up fa-2xl"></i>
+        </button>
+    </div>
+</body>
+</html>

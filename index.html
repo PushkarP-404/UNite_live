@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UNite</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5b24cdc61.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".right_menu li .fas").click(function(){
+                $(".profile_dd").toggleClass("active");
+            });
+            $(".hamburger").click(function(){
+                $(".sidebar").toggleClass("active");
+            })
+        })
+    </script>
+    <title>UNite</title>
+    <style>
+        h2 {
+            margin-top: 35px;
+            margin-left: 230px;
+            padding: 20px;
+            background-color: #ffde3a;
+            color: black;
+        }
+    </style>
+</head>
+<body background="main_background.png" bgcolor="#EFEFEF">
+    <h1  id="document_top">.</h1>
+    <div class="wrapper">
+        <div class="top_navbar">
+            <div class="hamburger">
+                <div class="hamburger_inner">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="logo">
+                    UNite
+                </div>
+                <div class="right_menu">
+                    <ul>
+                        <li><img src="main_logo.png" alt="Logo" height="60px" width="60px">
+                            <div class="profile_dd">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_container">
+            <div class="sidebar">
+                <div class="container">
+                    <div class="sidebar_iner">
+                        <div class="profile">
+                            <div class="img">
+                                <img src="main_logo.png" alt="Logo" sizes="100" width="100">
+                            </div>
+                            <div class="profile_info">
+                                <p class="profile_name"></p>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="index.html"  class="active">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <span class="title">&nbsp; About Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="problem.html">
+                                    <i class="fa-solid fa-question"></i>
+                                    <span class="title">&nbsp; Problem</span>
+                                </a>
+                            </li>
+                            <li>
+                            <li>
+                                <a href="idea.html">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                    <span class="title">&nbsp; Idea</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">
+                                    <i class="fa-solid fa-timeline fa-rotate-90"></i>
+                                    <span class="title">&nbsp; Timeline</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="product.html">
+                                    <i class="fa-brands fa-bimobject"></i>
+                                    <span class="title">&nbsp; Our Product</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Our Mission</h2>
+                <div class="item_one">
+                    <img src="image_one.png" alt="pic" class="pic_one" height="100px" width="100px">
+                    <div class="discription_one"></div>
+                    To ensure cleaner and more efficient energy for all while 
+                    upholding sustainability, prioritising renewability and 
+                    adopting eco-friendly practices.
+                </div><br><br><br>
+                <div class="reviews">
+                    <h2 class="responses">Reviews</h2>
+                    <section id="testimonials" style="margin-left: 100px;">
+                        <!--heading--->
+                        <div class="testimonial-heading">
+                          <br />
+                          <h1>Clients Says</h1>
+                          <br />
+                        </div>
+                        <!--testimonials-box-container------>
+                        <div class="testimonial-box-container">
+                          <!--BOX-1-------------->
+                          <div class="testimonial-box">
+                            <!--top------------------------->
+                            <div class="box-top">
+                              <!--profile----->
+                              <div class="profile">
+                                <!--img---->
+                                <!----       <div class="profile-img">
+                                  <img src="images/c-1.jpg" />
+                                </div>
+                                
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                  <strong>John Miller</strong>
+                                  <span>johnmiller1512@gmail.com</span>
+                                </div>
+                              </div>
+                              <!--reviews------>
+                              <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i
+                                ><!--Empty star-->
+                              </div>
+                            </div>
+                            <!--Comments---------------------------------------->
+                            <div class="client-comment">
+                              <p>
+                                Excellent idea, very eco-friendly
+                              </p>
+                            </div>
+                          </div>
+                          <!--BOX-2-------------->
+                          <div class="testimonial-box">
+                            <!--top------------------------->
+                            <div class="box-top">
+                              <!--profile----->
+                              <div class="profile">
+                                <!--img---->
+                                <!----      <div class="profile-img">
+                                  <img src="images/c-2.jpg" />
+                                </div>
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                  <strong>Aryan Choudhary</strong>
+                                  <span>aryanchoudhary0828@gmail.com</span>
+                                </div>
+                              </div>
+                              <!--reviews------>
+                              <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i
+                                ><!--Empty star-->
+                              </div>
+                            </div>
+                            <!--Comments---------------------------------------->
+                            <div class="client-comment">
+                              <p>
+                               Extremely efficient
+                              </p>
+                            </div>
+                          </div>
+                          <!--BOX-3-------------->
+                          <div class="testimonial-box">
+                            <!--top------------------------->
+                            <div class="box-top">
+                              <!--profile----->
+                              <div class="profile">
+                                <!--img---->
+                                <!----      <div class="profile-img">
+                                  <img src="images/c-3.jpg" />
+                                </div>
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                  <strong>Rohan Mehta</strong>
+                                  <span>rohanmetha3011@gmail.com</span>
+                                </div>
+                              </div>
+                              <!--reviews------>
+                              <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i
+                                ><!--Empty star-->
+                              </div>
+                            </div>
+                            <!--Comments---------------------------------------->
+                            <div class="client-comment">
+                              <p>
+                                Very Unique!
+                              </p>
+                            </div>
+                          </div>
+                          <!--BOX-4-------------->
+                          <div class="testimonial-box">
+                            <!--top------------------------->
+                            <div class="box-top">
+                              <!--profile----->
+                              <div class="profile">
+                                <!--img---->
+                                <!----          <div class="profile-img">
+                                  <img src="images/c-4.jpg" />
+                                </div>
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                  <strong>Arnav Patil</strong>
+                                  <span>arnavpatil0325@gmail.com</span>
+                                </div>
+                              </div>
+                              <!--reviews------>
+                              <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i
+                                ><!--Empty star-->
+                              </div>
+                            </div>
+                            <div class="client-comment">
+                              <p>
+                                Fullfils energy requirements
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <br /><br /><br /><br />
+                      </section>
+                </div>
+                <div class="contact">
+                    <h2 class="contactUs">Send a Review</h2>
+                    <div class="form">
+                        <form>
+                          <div class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-75">
+                              <input
+                                type="text"
+                                id="Name"
+                                name="Name"
+                                placeholder="Name"
+                              />
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-75">
+                              <input
+                                type="email"
+                                id="email"
+                                name="mailid"
+                                placeholder="Email ID"
+                              />
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-75">
+                              <textarea
+                                id="subject"
+                                name="subject"
+                                placeholder="Feedback"
+                                style="height:200px"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="row" float: 300px >
+                            <input type="submit" value="Submit" />
+                          </div>
+                        </form>
+                      </div>
+                </div>
+                <div class="socials" style="margin-left: 250px;font-size: 30px;">
+                  <a href="https://x.com/UNite7SDG?t=YWxyQyEw5CIssrHb40crqA&s=08" class="twitter" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                  <a href="https://www.instagram.com/unite7sdg/?utm_source=qr" class="insta" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="https://www.youtube.com/@UNite-jj4zl/about" class="youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                  -by Sanmitra, Harshit, Pushkar
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gotoTop_button">
+        <button class="gotoTop" id="gotoTop">
+            <a href="#document_top">
+                <i class="fa-solid fa-circle-up fa-2xl"></i>
+            </a>
+        </button>
+    </div>
+</body>
+</html>
