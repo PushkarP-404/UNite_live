@@ -1,4 +1,4 @@
-<img width="100" alt="IMG_8392" src="https://github.com/user-attachments/assets/b28ff106-ac29-4c59-8f68-8afdc94824d6" />
+<img width="100" alt="AURA_Logo" src="https://github.com/user-attachments/assets/b8c42844-3d0c-4bc1-920f-3dedd9b731b5" />
 
 
 # UNite
