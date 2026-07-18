@@ -1,4 +1,5 @@
-<img width="1280" height="640" alt="AURA_Logo" src="https://github.com/user-attachments/assets/d5d78be5-c77d-47fb-8c36-3df46b592a39" />
+<img width="2000" height="2000" alt="IMG_8392" src="https://github.com/user-attachments/assets/b28ff106-ac29-4c59-8f68-8afdc94824d6" />
+
 
 # UNite
  UNite Product landing page
