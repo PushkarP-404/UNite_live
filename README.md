@@ -1,6 +1,7 @@
 <div align="center">
   <img width="250" alt="AURA_Logo" src="https://github.com/user-attachments/assets/b8c42844-3d0c-4bc1-920f-3dedd9b731b5" style="margin-bottom: 20px;" />
 
+  <h1> AURA </h1>
   <h2>AI-powered University Resource Assistant</h2>
   
   <p>
