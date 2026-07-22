@@ -146,7 +146,7 @@ body {
     position: relative;
 }
 
-.main_container .sidebar .pofile{
+.main_container .sidebar .profile{
     display: flex;
     align-items: center;
     color: #fff;
@@ -155,7 +155,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.main_container .sidebar .container .sidebar_iner .profile .profile_info .profile_name{
+.main_container .sidebar .container .sidebar_inner .profile .profile_info .profile_name{
     color: #00c5a4;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -164,16 +164,16 @@ body {
     font-weight: bold;
 }
 
-.main_container .sidebar .pofile .img{
+.main_container .sidebar .profile .img{
     padding: 0 18px;
 }
 
-.main_container .sidebar .pofile .img img{
+.main_container .sidebar .profile .img img{
     padding: 20px 30px;
     width: 45px;
 }
 
-.main_container .sidebar .pofile p:first-child{
+.main_container .sidebar .profile p:first-child{
     font-size: 14px;
     color: #80cbc4;
     margin-bottom: 3px;
@@ -234,7 +234,7 @@ body {
     border-radius: 10px;
 }
 
-.main_container .container .item_one .discription_one,
+.main_container .container .item_one .description_one,
 .main_container .container .item_two > div,
 .main_container .container .item_three > div,
 .main_container .container .item_four > div,

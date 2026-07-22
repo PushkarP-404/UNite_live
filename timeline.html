@@ -9,9 +9,6 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script>
         $(document).ready(function(){
-            $(".right_menu li .fas").click(function(){
-                $(".profile_dd").toggleClass("active");
-            });
             $(".hamburger").click(function(){
                 $(".sidebar").toggleClass("active");
             })
@@ -40,7 +37,7 @@
     <title>UNite</title>
 
 </head>
-<body  background="main_background.png" bgcolor="#EFEFEF">
+<body  background="main_background.png" bgcolor="#EFEFEF" id="document_top">
     <script src="app.js"></script>
     <div class="wrapper">
         <div class="top_navbar">
@@ -57,10 +54,7 @@
                 </div>
                 <div class="right_menu">
                     <ul>
-                        <li><img src="main_logo.png" alt="Logo" height="60px" width="60px">
-                            <div class="profile_dd">
-                            </div>
-                        </li>
+                        <li><img src="main_logo.png" alt="Logo" height="60px" width="60px"></li>
                     </ul>
                 </div>
             </div>
@@ -68,7 +62,7 @@
         <div class="main_container">
             <div class="sidebar">
                 <div class="container">
-                    <div class="sidebar_iner">
+                    <div class="sidebar_inner">
                         <div class="profile">
                             <div class="img">
                                 <img src="main_logo.png" alt="Logo" sizes="100" width="100">
@@ -90,7 +84,6 @@
                                     <span class="title">&nbsp; Problem</span>
                                 </a>
                             </li>
-                            <li>
                             <li>
                                 <a href="idea.html">
                                     <i class="fa-solid fa-lightbulb"></i>
@@ -130,7 +123,9 @@
     </div>
     <div class="gotoTop_button">
         <button class="gotoTop" id="gotoTop">
-            <i class="fa-solid fa-circle-up fa-2xl"></i>
+            <a href="#document_top">
+                <i class="fa-solid fa-circle-up fa-2xl"></i>
+            </a>
         </button>
     </div>
 </body>
